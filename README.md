@@ -7,4 +7,6 @@
 
 ### Branches
  - Dynamic Array
- - Binary Search Tree(Next)
+ - Binary Search Tree
+ - Minimum Heap(Next)
+ - Maximum Heap(Next)
