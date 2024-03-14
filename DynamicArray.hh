@@ -40,7 +40,7 @@ public:
     void insertAt(int num, int index);
     void deleteAt(int index);
     void push_back(int num);
-    void pop_back();
+    int pop_back();
     void printArray();
 };
 
@@ -124,19 +124,21 @@ void DynamicArray::push_back(int num) {
     size++;
 }
 //Pop value at end of list
-void DynamicArray::pop_back() {
+int DynamicArray::pop_back() {
     if (size == 0) {
-        return;
+        return INT_MIN;
     }
     //Pop Value
+    int tempVal = array[size-1];
     array[size-1] = 0;
     size--;
     //Check if capacity can be shrunk
     if(size == numOfValues/2) {
         shrink();
     }
+    return tempVal;
 }
-//Print values in array using list format
+//Print values in array using list format for convenience
 void DynamicArray::printArray() {
     std::cout<<"[";
     for(int i = 0; i < size; i++) {
