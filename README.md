@@ -1,14 +1,14 @@
 # DynamicArray
-    Creates a DynamicArray class implementation of an <int> vector.
+    Creates a DynamicArray class implementation of an vector.
 ## Methods
-    - getSize
-    - getCapacity
-    - getNum
-    - insertAt
-    - deleteAt
-    - push_back
-    - pop_back
-    - printArray
+ - getSize
+ - getCapacity
+ - getNum
+ - insertAt
+ - deleteAt
+ - push_back
+ - pop_back
+ - printArray
 
 # getSize
     returns the current size of the array.
