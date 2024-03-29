@@ -1,12 +1,15 @@
-# DataStructures
- Basic Data Structure Classes and Tests
-### Goals
- - Deeper Understanding of Data Structures
- - Introduction to code testing
- - Easy to read code
+# minHeap
+ Class Implementation of a minimum heap.
+### Methods
+ - Insert
+ - Extract
+ - isEmpty
 
-### Branches
- - Dynamic Array
- - Binary Search Tree
- - Minimum Heap(Next)
- - Maximum Heap(Next)
+## Insert
+    Takes an int value and inserts it into the heap.
+
+## Extract
+    Returns the minimum value located at the top of the heap and pops it.
+
+## isEmpty
+    Checks if the heap is empty and returns a boolean value.
