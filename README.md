@@ -8,5 +8,5 @@
 ### Branches
  - Dynamic Array
  - Binary Search Tree
- - Minimum Heap(Next)
+ - Minimum Heap
  - Maximum Heap(Next)
